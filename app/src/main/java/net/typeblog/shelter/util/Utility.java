@@ -232,6 +232,8 @@ public class Utility {
 
         Set<String> crossProfilePackages = new HashSet<>();
         crossProfilePackages.add("com.google.android.calendar");
+        crossProfilePackages.add("com.google.android.inputmethod.latin");
+        crossProfilePackages.add("com.google.android.projection.gearhead");
 
         manager.setCrossProfilePackages(adminComponent, crossProfilePackages);
         manager.setProfileEnabled(adminComponent);
